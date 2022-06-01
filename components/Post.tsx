@@ -24,7 +24,7 @@ function Post({ post }: Props) {
       <div className="postLeft flex flex-col items-center justify-start space-y-1 rounded-md bg-gray-50 text-gray-400">
         <ArrowUpIcon className="voteButton hover:text-red-400 cursor-pointer" />
         <p className="text-black font-bold text-xs">0</p>
-        <ArrowDownIcon className="voteButton hover:text:blue-400 cursor-pointer" />
+        <ArrowDownIcon className="voteButton hover:text-blue-400 cursor-pointer" />
       </div>
       <div className="postContent p-3">
         {/* Header */}
